@@ -29,7 +29,7 @@ function ProductDetail(props) {
       <main>
         <section
           className="breadcrumb-area"
-          style={{ backgroundImage: 'url("/assets/page-title.png")' }}
+          style={{ backgroundimgUrl: 'url("/assets/page-title.png")' }}
         >
           <div className="container">
             <div className="row">
@@ -61,12 +61,12 @@ function ProductDetail(props) {
                       role="tabpanel"
                     >
                       <div className="product-large-img img-fluid">
-                        <img src={product.image} alt />
+                        <img src={product.imgUrl} alt />
                       </div>
                     </div>
                     <div className="tab-pane fade" id="profile" role="tabpanel">
                       <div className="product-large-img">
-                        <img src={product.image} alt />
+                        <img src={product.imgUrlMob} alt />
                       </div>
                     </div>
                     <div
@@ -75,7 +75,7 @@ function ProductDetail(props) {
                       role="tabpanel"
                     >
                       <div className="product-large-img">
-                        <img src={product.image} alt />
+                        <img src={product.imgUrlMob} alt />
                       </div>
                     </div>
                   </div>
@@ -91,7 +91,7 @@ function ProductDetail(props) {
                         role="tab"
                         aria-selected="true"
                       >
-                        <img src={product.image} alt />
+                        <img src={product.imgUrl} alt />
                       </a>
                     </li>
                     <li className="nav-item">
@@ -103,7 +103,7 @@ function ProductDetail(props) {
                         role="tab"
                         aria-selected="false"
                       >
-                        <img src={product.image} alt />
+                        <img src={product.imgUrl} alt />
                       </a>
                     </li>
                     <li className="nav-item">
@@ -115,7 +115,7 @@ function ProductDetail(props) {
                         role="tab"
                         aria-selected="false"
                       >
-                        <img src={product.image} alt />
+                        <img src={product.imgUrl} alt />
                       </a>
                     </li>
                   </ul>
@@ -131,7 +131,7 @@ function ProductDetail(props) {
                   <div className="details-price mb-20">
                     <span>{product.price.toLocaleString()}</span>
                     <span className="old-price">
-                      {product.priceMax.toLocaleString()}
+                      {product.finalPrice.toLocaleString()}
                     </span>
                   </div>
                   <div className="product-variant">

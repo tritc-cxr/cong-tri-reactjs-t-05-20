@@ -198,25 +198,25 @@ export default function CheckOut() {
                 <img
                   className="mr-2"
                   width="45px"
-                  src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+                  src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/imgUrls/visa.svg"
                   alt="Visa"
                 />
                 <img
                   className="mr-2"
                   width="45px"
-                  src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+                  src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/imgUrls/amex.svg"
                   alt="American Express"
                 />
                 <img
                   className="mr-2"
                   width="45px"
-                  src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+                  src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/imgUrls/mastercard.svg"
                   alt="Mastercard"
                 />
                 <img
                   className="mr-2"
                   width="45px"
-                  src="https://mdbootstrap.com/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.png"
+                  src="https://mdbootstrap.com/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/imgUrls/paypal.png"
                   alt="PayPal acceptance mark"
                 />
               </div>

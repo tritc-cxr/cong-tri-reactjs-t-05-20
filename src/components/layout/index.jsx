@@ -130,7 +130,7 @@ function Layout(props) {
         <div
           className="footer-area box-90 pt-100 pb-60"
           data-background="img/bg/footer.jpg"
-          style={{ backgroundImage: 'url("img/bg/footer.jpg")' }}
+          style={{ backgroundimgUrl: 'url("img/bg/footer.jpg")' }}
         >
           <div className="container">
             <div className="row">

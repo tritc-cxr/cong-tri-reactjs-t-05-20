@@ -4,7 +4,7 @@ import { Link, useHistory } from "react-router-dom";
 import Layout from "../../components/layout";
 import { registerAccountAction } from "./Register.action";
 function Register(props) {
-  
+
   const [valueRegister, setValueRegister] = useState({
     fullName: "",
     email: "",
@@ -23,10 +23,10 @@ function Register(props) {
     e.preventDefault();
     try {
       await props.registerAccount(valueRegister, history);
-      
+
     } catch (err) {
       console.log(err);
-      
+
     }
   };
 
@@ -36,7 +36,7 @@ function Register(props) {
         {/* breadcrumb-area-start */}
         <section
           className="breadcrumb-area"
-          style={{ backgroundImage: 'url("/assets/page-title.png")' }}
+          style={{ backgroundimgUrl: 'url("/assets/page-title.png")' }}
         >
           <div className="container">
             <div className="row">

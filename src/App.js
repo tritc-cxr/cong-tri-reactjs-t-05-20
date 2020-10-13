@@ -23,7 +23,7 @@ function App() {
       type: newProduct.type,
       price: newProduct.price,
       priceMax: newProduct.priceMax,
-      imageURL: newProduct.imageURL,
+      imgUrlURL: newProduct.imgUrlURL,
       quantity: 1,
     };
     let productUpdate = [...productsInCart];
@@ -95,7 +95,7 @@ function App() {
                   return (
                     <ProductItem
                       {...elm}
-                      imageURL={elm.image}
+                      imgUrlURL={elm.imgUrl}
                       onAddProduct={AddProductToCart}
                     />
                   );

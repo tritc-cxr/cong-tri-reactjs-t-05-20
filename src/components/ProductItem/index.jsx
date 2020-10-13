@@ -13,7 +13,7 @@ function ProductItem(props) {
         <div className="product-wrapper mb-50">
           <div className="product-img mb-25">
             <a href="#">
-              <img src={props.image} alt />
+              <img src={props.imgUrl} alt="" />
             </a>
             <div className="product-action text-center">
               <a title="Add to cart">
@@ -36,7 +36,7 @@ function ProductItem(props) {
               <a href="#">{props.name}</a>
             </h4>
             <span className="shopInfor_shopName" href="#">
-              {props.shopInfo.shop_name}
+              {props.shopName}
             </span>
             <div className="product-meta">
               <div className="pro-price">

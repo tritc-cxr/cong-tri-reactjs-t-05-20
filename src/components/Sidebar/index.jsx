@@ -65,7 +65,7 @@ function SideBar(props) {
             <li>
               <div className="side-pro-img">
                 <a href="#">
-                  <img src="./assets/shop-rsp3.jpg" alt />
+                  <img src="./assets/shop-rsp3.jpg" />
                 </a>
               </div>
               <div className="side-pro-content">
@@ -87,7 +87,7 @@ function SideBar(props) {
             <li>
               <div className="side-pro-img">
                 <a href="#">
-                  <img src="./assets/shop-rsp2.jpg" alt />
+                  <img src="./assets/shop-rsp2.jpg" />
                 </a>
               </div>
               <div className="side-pro-content">
@@ -109,7 +109,7 @@ function SideBar(props) {
             <li>
               <div className="side-pro-img">
                 <a href="#">
-                  <img src="./assets/shop-rsp4.jpg" alt />
+                  <img src="./assets/shop-rsp4.jpg" />
                 </a>
               </div>
               <div className="side-pro-content">
@@ -133,7 +133,7 @@ function SideBar(props) {
         <div className="shop-widget">
           <div className="shop-sidebar-banner">
             <a href="#">
-              <img src="./assets/shop-banner.jpg" alt />
+              <img src="./assets/shop-banner.jpg" />
             </a>
           </div>
         </div>

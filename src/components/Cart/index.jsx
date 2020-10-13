@@ -16,7 +16,7 @@ function Cart(props) {
           <li key={element.id}>
             <div className="cart-img">
               <a href="#">
-                <img src={element.imageURL} alt="" />
+                <img src={element.imgUrlURL} alt="" />
               </a>
             </div>
             <div className="cart-content">

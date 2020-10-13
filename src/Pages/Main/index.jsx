@@ -40,7 +40,7 @@ function App(props) {
       name: newProduct.name,
       type: newProduct.type,
       price: newProduct.price,
-      imageURL: newProduct.imageURL,
+      imgUrlURL: newProduct.imgUrlURL,
       quantity: 1,
     };
     let productUpdate = [...productsInCart];
@@ -132,8 +132,9 @@ function App(props) {
                 {currentPosts.map((elm) => {
                   return (
                     <ProductItem
+                      key={elm.id}
                       {...elm}
-                      imageURL={elm.image}
+                      imgUrlURL={elm.imgUrl}
                       onSelectProduct={onSelectProduct}
                     />
                   );
